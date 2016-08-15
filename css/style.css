@@ -68,7 +68,8 @@ header #header_in {
         margin: 0;
         padding: 5px 0;
         background: #ff6d77;
-        list-style: none; }
+        list-style: none;
+        display: none; }
         @media (min-width: 550px) {
           header #header_in .navi .toggle .sp_menu_toggle {
             display: none; } }
