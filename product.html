@@ -39,6 +39,16 @@
 			});
 		});
 	</script>
+	
+	<script>
+		$(window).load(function(){
+			$("#navi img").click(function(){
+		    	var img_src = $(this).attr("src");
+		    	$("#display_photo>img").attr("src", img_src);
+		    	return false;
+				});
+			});
+	</script>
 
 </head>
 
